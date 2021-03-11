@@ -1,0 +1,37 @@
+
+Deliverables 
+You are required to make a simple REST API, which will have the following endpoints:-
+Signup - /signup
+Login - /login
+Profile page - /profile
+
+Signup and Login will be the public routes(ie they would not require any authentication token), and the profile page will be a private route(ie it will require correct authentication token (ex - JWT) which was provided on login)
+
+Language - the api should be implemented using PHP (frameworks like Symphony or Laravel is a plus)
+Database - api should use MySQL as its database for storing users info
+Bonus Points - OOPS Concept is used
+Signup 
+User can register themself by providing their basic info(name, email, password etc)
+
+Request body structure 
+
+In response a message will be returned about the status of the creation.
+Login 
+User can log in to the system by providing email  and password (a token will be returned if authenticated)
+
+Request Body structure 
+
+
+Expected Response 
+
+Profile Page 
+Users can access their info from this page.
+
+Request param - JWT Token in Header
+
+Response - should return all the user’s info.
+
+
+Note: No need to follow any tutorial from top 10 Google search results. Spend time and try to do from scratch yourself.
+
+Submit your Assignment in the form of Github link.
